@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heather & Joe's Wedding</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-image: url('your-image-url.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #d9b382;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2rem;
+        }
+
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 2rem;
+            color: #d9b382;
+            margin-bottom: 20px;
+        }
+
+        p {
+            max-width: 600px;
+            margin: 0 auto 20px;
+            line-height: 1.6;
+        }
+
+        .bridal-party {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .bridal-party div {
+            margin: 10px;
+            width: 200px;
+        }
+
+        .bridal-party img {
+            width: 100%;
+            border-radius: 50%;
+        }
+
+        .bridal-party h3 {
+            font-size: 1.5rem;
+            margin: 10px 0 5px;
+        }
+
+        .bridal-party p {
+            font-size: 1rem;
+        }
+
+        .registry, .rsvp {
+            background-color: #e8e8e8;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .registry a, .rsvp a {
+            display: inline-block;
+            margin: 20px;
+            padding: 10px 20px;
+            background-color: #d9b382;
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2rem;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Heather & Joe's Wedding</h1>
+        <p>Join us for our special day</p>
+    </header>
+
+    <nav>
+        <a href="#our-story">Our Story</a>
+        <a href="#bridal-party">Bridal Party</a>
+        <a href="#wedding-info">Wedding Info</a>
+        <a href="#registry">Registry</a>
+        <a href="#rsvp">RSVP</a>
+    </nav>
+
+    <section id="our-story">
+        <h2>Our Story</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at libero vitae justo hendrerit tempor. Nullam
+            euismod, turpis eget cursus varius, lorem odio pharetra nisl, sit amet lacinia erat eros vel risus.</p>
+        <p>Phasellus vitae tincidunt elit. Fusce id arcu nec augue facilisis convallis et at sapien. Integer non metus
+            non nunc posuere sollicitudin.</p>
+    </section>
+
+    <section id="bridal-party">
+        <h2>Bridal Party</h2>
+        <div class="bridal-party">
+            <div>
+                <img src="bridesmaid1.jpg" alt="Bridesmaid 1">
+                <h3>Bridesmaid 1</h3>
+                <p>Lorem ipsum dolor sit.</p>
+            </div>
+            <div>
+                <img src="bridesmaid2.jpg" alt="Bridesmaid 2">
+                <h3>Bridesmaid 2</h3>
+                <p>Lorem ipsum dolor sit.</p>
+            </div>
+            <div>
+                <img src="groomsman1.jpg" alt="Groomsman 1">
+                <h3>Groomsman 1</h3>
+                <p>Lorem ipsum dolor sit.</p>
+            </div>
+            <div>
+                <img src="groomsman2.jpg" alt="Groomsman 2">
+                <h3>Groomsman 2</h3>
+                <p>Lorem ipsum dolor sit.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="wedding-info">
+        <h2>Wedding Info</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet arcu vitae felis volutpat tempus. Nulla
+            euismod, lacus a facilisis commodo, magna libero venenatis nisl, at aliquet lectus velit sed nulla.</p>
+        <p>Vestibulum id ligula in dui facilisis congue a ac sapien.</p>
+    </section>
+
+    <section id="registry">
+        <h2>Registry</h2>
+        <a href="registry-link-1">Registry Link 1</a>
+        <a href="registry-link-2">Registry Link 2</a>
+        <a href="registry-link-3">Registry Link 3</a>
+    </section>
+
+    <section id="rsvp">
+        <h2>RSVP</h2>
+        <a href="rsvp-link">RSVP Here</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Heather & Joe's Wedding. All Rights Reserved.</p>
+    </footer>
+
+</body>
+
+</html>
+
